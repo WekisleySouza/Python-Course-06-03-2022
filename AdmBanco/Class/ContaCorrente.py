@@ -6,7 +6,7 @@ class ContaCorrente(Conta):
         self.limite = limite
 
     def sacar(self, valor):
-        if valor <= (self.saldo + self.limite):
+        if valor <= self.saldo + self.limite:
             self.saldo -= valor
         else:
             print("Saldo insuficiente!")
