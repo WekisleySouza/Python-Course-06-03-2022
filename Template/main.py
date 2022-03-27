@@ -9,7 +9,7 @@ from email.mime.image import MIMEImage # Recebe imagem para anexar no email.
 import smtplib # É o que envia a mensagem em si.
 
 meu_email = "wekisleysouzapro@gmail.com"
-senha = "Não vou deixar aqui né!? kkkk"
+senha = "ana010899"
 
 email_receptor = "wekisleysouza015@gmail.com"
 
@@ -29,7 +29,7 @@ msg.attach(corpo) # Enviar corpo para msg.
 
 with open('Template/img/rato.jpg', 'rb') as img:
     img = MIMEImage(img.read()) # Ler imagem.
-    msg.attach(img)
+    #msg.attach(img)
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo() # Mensagem de hellow pro servidor.
