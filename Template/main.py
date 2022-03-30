@@ -9,7 +9,7 @@ from email.mime.image import MIMEImage # Recebe imagem para anexar no email.
 import smtplib # É o que envia a mensagem em si.
 
 meu_email = "wekisleysouzapro@gmail.com"
-senha = "ana010899"
+senha = "naosei"
 
 email_receptor = "wekisleysouza015@gmail.com"
 
